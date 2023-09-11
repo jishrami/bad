@@ -13,7 +13,7 @@
     </header>
     <main>
         <div id="gallery">
-            <a href="shop.html"> <img class="hoodie" src="images/hood.png" alt="skull hood mock-up">
+            <a href=""> <img class="hoodie" src="images/hood.png" alt="skull hood mock-up">
             </a>
             <div class="product">
                 <p>product image/link goes here</p>
@@ -30,33 +30,6 @@
         <p>&copy; 2023 bad. brand</p>
         <a href="socials.html">socials</a>
     </footer>
-</body>
-</html>
-
-<script>
-    // Function to fetch product data from the Printful API
-    async function fetchProductData() {
-        try {
-            const response = await fetch('/get_product.py'); // Replace with the actual endpoint of your Python API
-            const data = await response.json();
-            return data;
-        } catch (error) {
-            console.error('Error fetching product data:', error);
-            return null;
-        }
-    }
-
-    // Function to update the product elements with data
-    async function updateProductElements() {
-        const products = await fetchProductData();
-        if (products && products.length >= 2) {
-            document.getElementById('product1').innerHTML = `<img src="${products[0].imageUrl}" alt="${products[0].productName}"><a href="${products[0].productLink}">View Product</a>`;
-            document.getElementById('product2').innerHTML = `<img src="${products[1].imageUrl}" alt="${products[1].productName}"><a href="${products[1].productLink}">View Product</a>`;
-        }
-    }
-
-    // Call the updateProductElements function when the page loads
-    window.onload = updateProductElements;
-</script>
+    <!-- v7TNGYTAnIfwZl1fxQmeFQkbmM2pbP0CRGfS6iZa -->
 </body>
 </html>
