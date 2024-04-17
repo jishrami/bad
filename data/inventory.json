@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "name": "bad hoodie",
+            "description": "hoodie with the skull, black",
+            "price": 50,
+            "image": "images/hood.webp"
+        },
+        {
+            "id": "2",
+            "name": "bad tshirt",
+            "description": "tshirt with the skull, black",
+            "price": 20,
+            "image": "images/shirt.webp"
+        },
+        {
+            "id": "3",
+            "name": "bad skull sticker",
+            "description": "red and blue skull sticker",
+            "price": "5 for 5",
+            "image": "images/skull.png"
+        }
+        ]
+}
